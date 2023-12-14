@@ -2,6 +2,8 @@ import time as t
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+# make sure you know what the element is a id, name, css selector, or others.
+
 def login(url, user_class, pass_class, btn_class, time, username, password):
     driver = webdriver.Firefox()
     driver.get(url)
